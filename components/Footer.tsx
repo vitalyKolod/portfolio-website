@@ -50,7 +50,7 @@ const Footer = () => {
 				</div>
 				<div className='md:mx-auto'>
 					<h1 className='text-white font-semibold mb-[1rem] text-[19px]'>
-						Quick Link
+						Быстрые ссылки
 					</h1>
 					<Link to='home' smooth={true} duration={500} className=''>
 						<p className='text-[15px] text-white mb-[1rem] text-center cursor-pointer hover:text-yellow-300'>
@@ -67,12 +67,6 @@ const Footer = () => {
 					<Link to='services' smooth={true} duration={500} className=''>
 						<p className='text-[15px] text-white mb-[1rem] text-center cursor-pointer hover:text-yellow-300'>
 							Услуги
-						</p>
-					</Link>
-
-					<Link to='price' smooth={true} duration={500} className=''>
-						<p className='text-[15px] text-white mb-[1rem] text-center cursor-pointer hover:text-yellow-300'>
-							Цены
 						</p>
 					</Link>
 				</div>

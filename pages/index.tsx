@@ -35,7 +35,7 @@ const HomePage = () => {
 			<Services />
 			<Skills />
 			<Projects />
-			<Price />
+
 			<Footer />
 		</div>
 	)

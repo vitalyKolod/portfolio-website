@@ -54,11 +54,7 @@ const Nav = ({ openNav }: Props) => {
 							Услуги
 						</Link>
 					</li>
-					<li>
-						<Link to='price' smooth={true} duration={500} className='nav_link'>
-							Цены
-						</Link>
-					</li>
+
 					<li>
 						<Link
 							to='contacts'
