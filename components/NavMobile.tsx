@@ -1,6 +1,7 @@
 import { XMarkIcon } from '@heroicons/react/16/solid'
 import React from 'react'
-import { Link } from 'react-scroll'
+import { Link as ScrollLink } from 'react-scroll'
+import Link from 'next/link'
 
 interface Props {
 	showNav: boolean
@@ -19,50 +20,46 @@ const NavMobile = ({ closeNav, showNav }: Props) => {
 				className={`text-white ${NavOpenStyle} fixed flex items-center flex-col justify-center h-[100%] transform transition-all duration-300 delay-300 w-[60%] bg-red-600 space-y-14 z-[10006]`}
 			>
 				<li>
-					<Link
+					<ScrollLink
 						to='home'
 						smooth={true}
 						duration={500}
 						className='nav_link'
-						onClick={closeNav}
 					>
 						Главная
-					</Link>
+					</ScrollLink>
 				</li>
 				<li>
-					<Link
+					<ScrollLink
 						to='about'
 						smooth={true}
 						duration={500}
 						className='nav_link'
-						onClick={closeNav}
 					>
 						О мне
-					</Link>
+					</ScrollLink>
 				</li>
 				<li>
-					<Link
+					<ScrollLink
 						to='services'
 						smooth={true}
 						duration={500}
 						className='nav_link'
-						onClick={closeNav}
 					>
 						Услуги
-					</Link>
+					</ScrollLink>
 				</li>
-
 				<li>
-					<Link
+					<ScrollLink
 						to='contacts'
 						smooth={true}
 						duration={500}
 						className='nav_link'
-						onClick={closeNav}
 					>
 						Контакты
-					</Link>
+					</ScrollLink>
 				</li>
+
 				<XMarkIcon
 					onClick={closeNav}
 					className='absolute top-[1.4rem] right-[1.4rem] w-[2.2rem] h-[2.2rem] text-white'

@@ -26,7 +26,7 @@ const Footer = () => {
 					{/* Добавляем иконки */}
 					<div className='flex justify-center space-x-4 mt-4 text-white text-[25px]'>
 						<a
-							href='https://t.me/Vitaly_Kolodchenko'
+							href='https://t.me/vitaly_kolodchenko'
 							target='_blank'
 							rel='noopener noreferrer'
 						>
