@@ -36,7 +36,7 @@ const Nav = ({ openNav }: Props) => {
 						VK{' '}
 					</span>
 				</div>
-				<ul className='md:flex hidden items-center space-x-10'>
+				<ul className='md:flex hidden items-center space-x-10 cursor-pointer'>
 					<li>
 						<ScrollLink
 							to='home'
