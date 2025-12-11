@@ -61,7 +61,7 @@ const HomePage = () => {
           name="twitter:description"
           content="Создаю современные сайты под ключ: frontend + backend + боты."
         />
-        <meta name="twitter:image" content="https://www.vitalykolodchenko.ru/images/preview.jpg" />
+        <meta name="twitter:image" content="https://www.vitalykolodchenko.ru/images/preview.png" />
       </Head>
 
       {/* 👇 Это уже сам контент страницы */}
