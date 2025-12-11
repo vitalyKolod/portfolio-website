@@ -40,14 +40,14 @@ const HomePage = () => {
         {/* OpenGraph */}
         <meta
           property="og:title"
-          content="Виталий Колодченко — Frontend / Full-Stack разработчик"
+          content="Виталий Колодченко — разработка сайтов и телеграм ботов"
         />
         <meta
           property="og:description"
           content="Создаю современные сайты на React и Next.js, backend на Node.js и Telegram-ботов."
         />
 
-        <meta property="og:image" content="https://www.vitalykolodchenko.ru/images/preview.png" />
+        <meta property="og:image" content="images/preview-seo.jpg" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
 
@@ -61,7 +61,7 @@ const HomePage = () => {
           name="twitter:description"
           content="Создаю современные сайты под ключ: frontend + backend + боты."
         />
-        <meta name="twitter:image" content="images/preview.png" />
+        <meta name="twitter:image" content="images/preview-seo.jpg" />
       </Head>
 
       {/* 👇 Это уже сам контент страницы */}
