@@ -47,7 +47,7 @@ const HomePage = () => {
           content="Создаю современные сайты на React и Next.js, backend на Node.js и Telegram-ботов."
         />
 
-        <meta property="og:image" content="https://www.vitalykolodchenko.ru/images/preview.jpg" />
+        <meta property="og:image" content="https://www.vitalykolodchenko.ru/images/preview.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
 
