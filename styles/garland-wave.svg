@@ -1,0 +1,13 @@
+<svg width="300" height="90" viewBox="0 0 300 90" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Волна -->
+  <path d="M0 40 C 50 -10 150 90 300 40" stroke="#555" stroke-width="6" fill="none" />
+
+  <!-- Лампочки -->
+  <circle cx="20" cy="55" r="10" fill="#ff4d4d" />
+  <circle cx="60" cy="20" r="10" fill="#ffd93b" />
+  <circle cx="140" cy="22" r="10" fill="#4dbbff" />
+  <circle cx="180" cy="55" r="10" fill="#4dff88" />
+  <circle cx="250" cy="60" r="10" fill="#ff3b6b" />
+
+</svg>

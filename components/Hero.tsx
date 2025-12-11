@@ -38,7 +38,7 @@ const Hero = () => {
           <div className="hidden md:block">
             <Image
               data-aos="fade-left"
-              src="/images/Me.png"
+              src="/images/Me-winter.png"
               alt="me"
               width={600}
               height={600}
