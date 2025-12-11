@@ -10,6 +10,8 @@ import Footer from '@/components/Footer'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import Head from 'next/head' // 👈 добавили
+import Price from '@/components/Price'
+import Reviews from '@/components/Reviews'
 
 const HomePage = () => {
   const [showNav, setShowNav] = useState(false)
