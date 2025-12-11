@@ -46,18 +46,22 @@ const HomePage = () => {
           property="og:description"
           content="Создаю современные сайты на React и Next.js, backend на Node.js и Telegram-ботов."
         />
-        <meta property="og:image" content="/images/preview.jpg" />
-        <meta property="og:url" content="https://vitalykolodchenko.ru" />
+
+        <meta property="og:image" content="https://www.vitalykolodchenko.ru/images/preview.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+
+        <meta property="og:url" content="https://www.vitalykolodchenko.ru" />
         <meta property="og:type" content="website" />
 
-        {/* Twitter Card */}
+        {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Виталий Колодченко — разработчик" />
         <meta
           name="twitter:description"
           content="Создаю современные сайты под ключ: frontend + backend + боты."
         />
-        <meta name="twitter:image" content="/images/preview.jpg" />
+        <meta name="twitter:image" content="https://www.vitalykolodchenko.ru/images/preview.jpg" />
       </Head>
 
       {/* 👇 Это уже сам контент страницы */}
