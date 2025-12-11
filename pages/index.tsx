@@ -27,7 +27,7 @@ const HomePage = () => {
   return (
     <>
       <Head>
-        <title>Виталий Колодченко — Frontend / Full-Stack разработчик</title>
+        <title>Виталий Колодченко — разработка сайтов, телеграм ботов</title>
         <meta
           name="description"
           content="Я Виталий Колодченко — фронтенд и фулл-стек разработчик. Создаю современные сайты на React и Next.js, backend на Node.js и Telegram-ботов."
